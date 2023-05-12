@@ -1,0 +1,20 @@
+{
+  "name": "workramp-automation",
+  "version": "1.0.0",
+  "description": "This repository contains automated test scripts written in TypeScript for the WorkRamp for Login and Guide creating",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chromium --headed --workers=1 --retries=1"
+  },
+  "keywords": [],
+  "author": "David Numa",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.33.0"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.33.0",
+    "dotenv": "^16.0.3",
+    "playwright": "^1.33.0"
+  }
+}
