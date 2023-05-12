@@ -1,0 +1,12 @@
+# npm
+node_modules/
+
+# playwright
+/test-results/
+/tests-examples/
+/playwright-report/
+/playwright/.cache/
+*.env
+
+# mac
+.DS_Store
