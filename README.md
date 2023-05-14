@@ -16,13 +16,13 @@ Once you have cloned the repository, navigate to the project directory and insta
 
 ## Running the Tests
 
+You need to configure your credentials in the ENV, a config file `.env.config` is included in the branch.
+
 To run the test scripts, open a terminal window and navigate to the project directory. Then, run the following command:
 
 `npm run test`
 
 This will start the Playwright test, which will open Google Chrome and run the test scripts.
-
-You will also need to configure your credentials in the ENV, a config file `.env.config` is included in the branch
 
 ## Test Scenarios
 
