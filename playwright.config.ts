@@ -16,7 +16,7 @@ export default defineConfig({
     headless: false,
     viewport: { width: 1366, height: 768 },
     baseURL: 'https://wrstg.app.staging.workramp.com/',
-    trace: 'on-first-retry',
+    trace: 'on',
   },
 
   projects: [
